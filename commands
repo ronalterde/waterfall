@@ -1,0 +1,7 @@
+break process
+commands 1
+	append memory out.bin p (p + blockSize)
+	continue
+end
+run
+quit
